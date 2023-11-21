@@ -1,0 +1,76 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  border: 2px solid black;
+}
+.headerSection{
+  background-color:sandybrown;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.bannerbox img{
+  width: 100%;
+}
+.headerSection li:hover{
+  background-color: cadetblue;
+  cursor: pointer;
+}
+.center ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 17px;
+}
+.title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+
+}
+.search input{
+  width: 160%;
+  height: 25px;
+  align-items: center;
+  text-shadow: none;
+  font-size: 15px;
+  padding: 0px 8px;  
+  border-radius: 5px;
+}
+.right{
+  /* flex:2;   */
+  flex:0.3;
+  display: flex;
+  justify-content: space-between;
+   /* flex-direction: row-reverse; */
+   padding: 0px 20px;
+}
+.collectionsection h2,.womenSection h2{
+  /* text-align: center; */
+  color:#8c9eff;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: azure;
+
+}
+body{
+  max-width: 100%;
+}
+.men-images,.women-images{
+  display: flex;
+  flex-wrap:no-wrap;
+ 
+}
+.men-images img,.women-images img{
+  width: 17%; 
+  /* margin: 0px 5px; */
+  padding: 0px 5px;
+
+}
+.womenSection{
+  border: 1px solid #000;
+}
+
+
